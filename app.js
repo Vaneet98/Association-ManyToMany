@@ -10,6 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get("/", (req, res) => {
   res.send("Home page");
+  console.log("vaneet kumar");
 });
 
 app.use("/", rout);
